@@ -4,7 +4,6 @@ from tkinter import messagebox
 top = tkinter.Tk()
 top.title("Tic Tac Toc")
 Lab = tkinter.Label(top,text="Welcome to Tic Tac Toe game").grid(row=0,column=0,columnspan=3,sticky="ew")
-
 # main function
 player1 = True
 def place_marker(button):
